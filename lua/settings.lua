@@ -1,0 +1,25 @@
+local g = vim.g
+local o = vim.o
+local opt = vim.opt
+
+o.termguicolors = true
+o.scrolloff = 8
+o.number = true
+o.relativenumber = true
+o.expandtab = true
+o.smarttab = true
+o.ignorecase = true
+o.smartcase = true
+o.cindent = true
+o.autoindent = true
+o.wrap = true
+o.textwidth = 300
+o.history = 50
+o.tabstop = 2
+o.shiftwidth = 2
+o.clipboard = "unnamedplus"
+g.mapleader = ' '
+g.maplocalleader = " "
+opt.mouse = "a"
+o.swapfile = false
+o.backup = false
